@@ -1,0 +1,95 @@
+name: agro_vision
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
+  firebase_ui_auth: ^1.15.0
+  shared_preferences: 2.3.2
+  fluttertoast: ^8.2.1
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  cloud_firestore: ^5.4.3
+  http: ^1.2.2
+  json_serializable: ^6.8.0
+  json_annotation: ^4.9.0
+  flutter_svg: ^2.0.10+1
+  geolocator: ^13.0.1
+  intl: any
+  connectivity_plus: ^6.0.5
+  cached_network_image: ^3.4.1
+  tflite_flutter: ^0.11.0
+  flutter_gemini: ^2.0.3
+  flutter_chat_ui: ^1.6.15
+  flutter_chat_types: ^3.6.2
+  uuid: ^4.5.1
+  loading_animation_widget: ^1.3.0
+  table_calendar: ^3.1.2
+  google_generative_ai: ^0.4.6
+  draggable_scrollbar: ^0.1.0
+  google_maps_flutter: ^2.10.0
+  flutter_native_splash: ^2.4.4
+  flutter_exit_app: ^1.1.4
+  firebase_ui_oauth_google: ^1.4.1
+  google_sign_in: ^6.2.2
+  firebase_storage: ^12.4.0
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  path: ^1.9.0
+  rxdart: ^0.28.0
+  flutter_launcher_icons: ^0.13.0
+  easy_localization: ^3.0.7+1
+  restart_app: ^1.3.2
+  translator: ^1.0.3+1
+  flutter_vector_icons: ^2.0.0
+  dropdown_search: ^6.0.2
+  envied: ^1.1.1
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  build_runner: ^2.4.13
+  envied_generator: ^1.1.1
+
+flutter_native_splash: 
+  color: "#ffffff"
+  image: lib/assets/images/agro_vision_logo2.png
+  android: true
+  ios: true
+  web: false
+  android_12: 
+    color: "#ffffff"
+    color_dark: "#ffffff"
+    image: lib/assets/images/agro_vision_logo2.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/agro_vision_logo_padding_300.png"  # Path to your image
+  adaptive_icon_foreground: "lib/assets/images/agro_vision_logo_padding_300.png"  # Path to your image
+  adaptive_icon_background: "#121212"
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - lib/assets/images/
+    - lib/assets/ml_models/
+    - lib/assets/ml_model_labels/
+    - lib/assets/json_assets/
+    - lib/assets/translations/

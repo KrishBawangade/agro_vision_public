@@ -1,0 +1,2 @@
+C:/flutter_projects/agro_vision/android/app/.cxx/Debug/2f2s3t6b/x86_64/CMakeFiles/edit_cache.dir
+C:/flutter_projects/agro_vision/android/app/.cxx/Debug/2f2s3t6b/x86_64/CMakeFiles/rebuild_cache.dir
